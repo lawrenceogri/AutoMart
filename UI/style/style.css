@@ -1,0 +1,87 @@
+@keyframes heartbeat{
+    0%{
+        transform: scale(.75);
+    }
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(.75);
+    }
+    60%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(.75);
+    }
+    100%{
+        transform: scale(.75);
+    }
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+html, body{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header{
+    height: 10vh;
+    border: 1px solid black;
+    font-size: 0;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 25%;
+    border: 1px solid blue;
+    font-size: 32px;
+    line-height: 10vh;
+    text-align: center;
+}
+
+.background-img{
+    height: 30vh;
+    border: 1px solid black;
+}
+
+.car-photo{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    min-height: 100%;
+}
+
+.car-list{
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.center{
+    text-align: center;
+}
+
+.heart{
+    animation: heartbeat 1s infinite;
+    
+}
