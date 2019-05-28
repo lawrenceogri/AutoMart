@@ -43,7 +43,7 @@ p{
     padding: 10px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, .comfortaa{
     font-family: 'Comfortaa', cursive;
 }
 
@@ -103,7 +103,6 @@ h1,h2,h3,h4,h5,h6{
     padding: 0;
     margin-bottom: 4px;
     border-radius: 5px;
-    
 }
 
 .center{
@@ -113,6 +112,11 @@ h1,h2,h3,h4,h5,h6{
 .footer{
     height: 40px;
     line-height: 40px;
+    margin-top: 20px;
+    padding: 60px;
+    padding-top:10px;
+    background: #555b6e;
+    color: white;
 } 
 
 .heart{
@@ -176,3 +180,43 @@ button:hover{
     color: #bee3db;
     font-weight: bolder;
 }
+
+.car img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.preview img{
+    margin: 10px;
+    opacity: 0.85;
+}
+
+.preview img:hover{
+    margin: 10px;
+    opacity: 1;
+}
+
+.buy{
+    background: #007BFF;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.mark-sold{
+    background: #28A745;
+}
+
+.flag{
+    background: #DC3545;
+}
+
+.delete{
+    background: #343A40;
+}
+
+.inverse:hover{
+    background: white;
+    color: black;
+}
+
