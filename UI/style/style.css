@@ -158,11 +158,15 @@ h1,h2,h3,h4,h5,h6, .comfortaa{
     text-align: center;
 }
 
-input,select,button{
+input,select,button,option{
     padding: 10px;
     border: none;
     margin: 0;
     margin-bottom: 4px;
+}
+
+input,select{
+    width: 200px;
 }
 
 .car-list img{
@@ -171,6 +175,7 @@ input,select,button{
 
 button{
     border-radius: 3px;
+    color: white;
 }
 
 
@@ -254,10 +259,29 @@ hr{
 
 #log-in-button{
     background: #007BFF;
-    color: white;
 }
 
 #log-in-button:hover{
     color: black;
     background: white;
 }
+
+.post-ad{
+    width: 50%;
+    margin: auto;
+    background: #bee3db;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+
+.post-ad *{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.post-ad-button{
+    margin-bottom: 0;
+}
+
