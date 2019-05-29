@@ -110,6 +110,7 @@ h1,h2,h3,h4,h5,h6, .comfortaa{
 }
 
 .footer{
+    width: 100%;
     height: 40px;
     line-height: 40px;
     margin-top: 20px;
@@ -118,6 +119,11 @@ h1,h2,h3,h4,h5,h6, .comfortaa{
     background: #555b6e;
     color: white;
 } 
+
+.sign-in{
+    position: fixed;
+    bottom: 0;
+}
 
 .heart{
     animation: animateHeart 2.5s infinite;
@@ -155,6 +161,7 @@ h1,h2,h3,h4,h5,h6, .comfortaa{
 input,select,button{
     padding: 10px;
     border: none;
+    margin: 0;
     margin-bottom: 4px;
 }
 
@@ -163,14 +170,9 @@ input,select,button{
 }
 
 button{
-    background: #ffd6ba;
-    border: 1px solid #ffd6ba;
     border-radius: 3px;
 }
 
-button:hover{
-    color: #555b6e;
-}
 
 .car-list p{
     padding: 2px;
@@ -196,7 +198,7 @@ button:hover{
     opacity: 1;
 }
 
-.buy{
+.buy, .ok{
     background: #007BFF;
     padding: 20px;
     width: 200px;
@@ -209,6 +211,7 @@ button:hover{
 
 .flag{
     background: #DC3545;
+    outline: 1px solid #DC3545;
 }
 
 .delete{
@@ -220,3 +223,41 @@ button:hover{
     color: black;
 }
 
+.log-in{
+    background: url('../image/porsche.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+hr{
+    width: 90%;
+    margin-top: 30px;
+}
+
+.log, .sign-up{
+    width: fit-content;
+    margin-left:auto; 
+    margin-right:60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sign-up-button{
+    width: 110px;
+    height: 50px;
+}
+
+.sign-up input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#log-in-button{
+    background: #007BFF;
+    color: white;
+}
+
+#log-in-button:hover{
+    color: black;
+    background: white;
+}
