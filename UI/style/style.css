@@ -151,6 +151,10 @@ h1,h2,h3,h4,h5,h6, .comfortaa{
     margin: 0 10px;
 }
 
+.social{
+    margin-top: 10px;
+}
+
 .filter{
     padding: 20px;
     width: fit-content;
@@ -158,7 +162,7 @@ h1,h2,h3,h4,h5,h6, .comfortaa{
     text-align: center;
 }
 
-input,select,button,option{
+input,select,button{
     padding: 10px;
     border: none;
     margin: 0;
@@ -285,3 +289,11 @@ hr{
     margin-bottom: 0;
 }
 
+.filter input, .filter select{
+    width: 150px;
+    height: 35px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}

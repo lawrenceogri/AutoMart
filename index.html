@@ -27,7 +27,7 @@
                 <div class="light center">Buy cars like this one. Or better ...</div>
             </div> <!-- background-img -->
         </div>
-        <p class="center light bold" style="background:#89b0ae;">Buy With confidence form verified sellers!</p>
+        <p class="center light bold" style="background:#89b0ae; padding: 20px 0;">Buy with confidence form verified sellers!</p>
         <div class="filter">
             <input type="number" placeholder="Enter amount in $">
             <select>
@@ -37,10 +37,12 @@
                 <option>Ford</option>
                 <option>Volkswagen</option>
             </select>
-            <label>Car condition </label>
-            <label><b>New:</b> </label><input type="radio" name="condition" value="new">
-            <label><b>Used:</b> </label><input type="radio" name="condition" value="used">
-            <button>Filter List</button>
+            <select>
+                <option disabled>Condition</option>
+                <option>Used Car</option>
+                <option>New Car</option>
+            </select>
+            <button class="ok inverse">Filter List</button>
         </div>
         <div class="list">
             <div class="car-list">
@@ -93,7 +95,7 @@
             </div>
         </div>
         <footer>
-            <p class="center">Auto Mart is an online marketplace for automobiles of diverse makes, model or body type.
+            <p class="center margin-top">Auto Mart is an online marketplace for automobiles of diverse makes, model or body type.
                 With Auto Mart, users can sell their cars or buy from trusted dealerships or private sellers. Contact us
                 on social media: </p>
             <div class="center social">
