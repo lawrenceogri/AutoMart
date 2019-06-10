@@ -283,6 +283,7 @@ hr{
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+    /* border: 1px solid black; */
 }
 
 .post-ad-button{
@@ -296,4 +297,31 @@ hr{
 
 .margin-top{
     margin-top: 10px;
+}
+
+.purchase-order *{
+    width: 100%;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.po-submit{
+    display: block;
+    margin: 20px auto;
+}
+
+th{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+td{
+    text-align: center;
+}
+
+.date{
+    font-size: 30px;
 }
